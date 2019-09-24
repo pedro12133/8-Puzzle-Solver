@@ -1,0 +1,8 @@
+To compile & run type the following commands into the command line:
+javac Puzzle.java
+java Puzzle
+
+This program takes the first chararacter of input when choosing options. Valid options are inputs starting with '1' or '2'. When entering a custom 8-puzzle seperate entries by spaces. 0 represents the blank space, otherwise use 1-8 to represent all other tiles. Every three entries are a row in the puzzle. If the input for a custom puzzle is invalid, the program will terminate. If a custom puzzle has no solution, the user will be prompted for another configuration. After a solution is found, solution stats will display. To display the solution  path, press enter after solution stats are displayed. If A* Tree Search is chosen, only solutions under 7,000,000 search cost will be displayed, otherwise user will be notified that there is not enough memory to calculate the solution.
+
+The raw data files are formatted in the following order:
+test# solutionDepth searchCost runtime
